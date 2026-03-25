@@ -4,6 +4,8 @@
 require 'pangea-core'
 require 'terraform-synthesizer'
 
+module Pangea; module Resources; module Tls; module Types; end; end; end; end
+
 # Tls resources
 require_relative 'pangea/resources/tls_cert_request/resource'
 require_relative 'pangea/resources/tls_locally_signed_cert/resource'
