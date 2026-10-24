@@ -4,4 +4,4 @@ on: [push, pull_request]
 
 jobs:
   check:
-    uses: pleme-io/substrate/.github/workflows/gem-ci.yml@main
+    uses: pleme-io/flows/.github/workflows/gem-ci.yml@main

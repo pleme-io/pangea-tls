@@ -6,6 +6,6 @@ on:
 
 jobs:
   bump:
-    uses: pleme-io/substrate/.github/workflows/gem-auto-bump.yml@main
+    uses: pleme-io/flows/.github/workflows/gem-auto-bump.yml@main
     secrets:
       BOT_PAT: ${{ secrets.BOT_PAT }}
